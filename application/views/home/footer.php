@@ -12,14 +12,21 @@
                             <a href="http://www.geotrust.com/ssl/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;"></a></td>
                     </tr>
                 </table>
+
+                <table width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose GeoTrust SSL for secure e-commerce and confidential communications.">
+                    <tr>
+                        <td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.geotrust.com/getgeotrustsslseal?host_name=poputrust.com&amp;size=M&amp;lang=en"></script><br />
+                            <a href="http://www.geotrust.com/ssl/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;"></a></td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="col-md-12 col-lg-12 col-sm-12  text-center">
             <div class="">
-                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/GooglePlay_appStore.png'); ?>" alt=""/>
-                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/amazon-badge.png'); ?>" alt=""/>
-                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/windows-badge-128x128.png'); ?>" alt=""/>
-                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/download-on-the-app-store-badge.png'); ?>" alt=""/>
+                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/apple.png'); ?>" alt=""/>
+                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/google.png'); ?>" alt=""/>
+                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/windows.png'); ?>" alt=""/>
+                <img src="<?php echo base_url('assets/custom/images/appStoreIcons/amazon.png'); ?>" alt=""/>
             </div>
         </div>
         <div class="col-md-12 col-lg-12 col-sm-12 text-center">
@@ -60,7 +67,7 @@
                 <a href="https://www.facebook.com/poputrust" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-facebook-f"></i></a>
                 <a href="https://twitter.com/poputrust" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.linkedin.com/company/poputrust" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-linkedin"></i></a>
-                
+
             </div>
         </div>
     </div>

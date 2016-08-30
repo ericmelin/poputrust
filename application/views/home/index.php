@@ -6,8 +6,8 @@
         <!-- MENU SECTION END-->
         <main style=" background-image: url('<?php echo base_url('assets/custom/images/poputrust_search_bg.jpg'); ?>'); background-position: center; background-size: cover;">
             <div class="content-wrapper" style="margin-top:0px !important;">
-                <a href="<?php echo base_url('p/kenrick-kissoon/3');?>" class="hidden">kenrick-kisson</a>
-                <a href="<?php echo base_url('person/personList');?>" class="hidden">Person List</a>
+                <a href="<?php echo base_url('p/kenrick-kissoon/3'); ?>" class="hidden">kenrick-kisson</a>
+                <a href="<?php echo base_url('person/personList'); ?>" class="hidden">Person List</a>
                 <div class="container" style="min-height: 299px;">
 
                     <div class="row">
@@ -38,7 +38,9 @@
                                             if (!empty($s)) {
                                                 echo $s;
                                             }
-                                            ?>" placeholder="First Name Last Name, City, State">
+                                            ?>" placeholder="First Name Last Name, City, State"
+                                                   autofocus
+                                                   />
                                             <span class="input-group-btn">
 
                                                 <button type="submit"  class="btn btn-default" type="button"><i class="fa fa-search"></i> Search</button>
@@ -60,7 +62,7 @@
                                 <div class="list-group">
                                     <div class="list-group-item-heading">
                                         <div class="row">
-                                            <div class="col-md-12">                                            
+                                            <div class="col-md-12">   
                                                 <h3 class="text-center text-default"> 
                                                     <button type="button" class="btn btn-success btn-lg  btn-circle"><i class="fa fa-check fa-1x"></i></button><b>
                                                         <?php echo $totalResults . ' Results found for ' . $s; ?> 
@@ -147,11 +149,13 @@
                                     <div class="list-group-item-heading">
                                         <div class="row">
                                             <div class="col-md-12">                                            
-                                                <h3 class="text-center"> 
-                                                    <button type="button" class="btn btn-danger btn-lg  btn-circle"><i class="fa fa-times fa-1x"></i></button><b>
-                                                        <?php echo 'No Results found for ' . $s; ?> 
-                                                    </b>
-                                                </h3>
+                                                <div class="alert alert-danger">
+                                                    <h3 class="text-center"> 
+                                                        <button type="button" class="btn btn-danger btn-lg  btn-circle"><i class="fa fa-times fa-1x"></i></button><b>
+                                                            <?php echo 'No Results found for ' . $s; ?> 
+                                                        </b>
+                                                    </h3>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

@@ -34,6 +34,7 @@
                 <div class="navbar-collapse collapse ">
                     <ul id="menu-top" class="nav navbar-nav navbar-right">
                         <li><a class="" href="<?php echo base_url('jobs'); ?>" >Jobs</a></li>
+                        <li><a class="<?php echo ($active_class == 'checkout' ? 'menu-top-active' : ''); ?>" href="<?php echo base_url('checkout'); ?>" >Checkout</a></li>
                         <li><a class="<?php echo ($active_class == 'affiliates' ? 'menu-top-active' : ''); ?>" class="" href="<?php echo base_url('affiliates'); ?>" >Affiliates</a></li>
                         <li><a class="<?php echo ($active_class == 'signup' ? 'menu-top-active' : ''); ?>" href="<?php echo base_url('signup'); ?>">Signup</a></li>
                         <li><a class="<?php echo ($active_class == 'signin' ? 'menu-top-active' : ''); ?>" href="<?php echo base_url('signin'); ?>">Signin</a></li>
