@@ -22,7 +22,7 @@
                         <div class="col-md-12 col-lg-12 col-sm-12">
                             <h4 class="page-head-line">Chekout Details</h4>
 
-                            <div class="table-responsive">
+                            <div class="table table-responsive">
                                 <table class="table table-striped table-bordered table-hover">
                                     <tr>
                                         <td>
@@ -32,7 +32,7 @@
                                         <td>
                                             <b>$0</b>
                                         </td>
-                                        <td>
+                                        <td style="width: 100px;">
                                             <a href="<?php echo base_url(''); ?>">Click Here</a>
                                         </td>
                                     </tr>

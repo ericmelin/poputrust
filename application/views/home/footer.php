@@ -3,9 +3,9 @@
         <br>
         <div class="col-md-12 col-lg-12 col-sm-12  text-center">
             <div class="">
-                <img src="<?php echo base_url('assets/custom/images/made-in-usa-brand-03.png'); ?>" alt="" height="120"/>
-                <img src="<?php echo base_url('assets/custom/images/Police-Support.jpg'); ?>" alt="" height="120"/>
-                <img src="<?php echo base_url('assets/custom/images/we_support_our_troops_by_carharttcreations-d9s7wck.png'); ?>" alt="" height="120"/>
+                <img src="<?php echo base_url('assets/custom/images/Made-in-USA_badge_170x_120.png'); ?>" alt="" height="120" style="margin-right: 15px"/>
+                <img src="<?php echo base_url('assets/custom/images/police_support_120x100px.png'); ?>" alt="" height="120" style="margin-right: 15px"/>
+                <img src="<?php echo base_url('assets/custom/images/support_troops_170x_120.png'); ?>" alt="" height="120"/>
                 <table width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose GeoTrust SSL for secure e-commerce and confidential communications.">
                     <tr>
                         <td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.geotrust.com/getgeotrustsslseal?host_name=www.poputrust.com&amp;size=M&amp;lang=en"></script><br />
